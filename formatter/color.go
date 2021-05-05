@@ -56,7 +56,7 @@ func (cs ColorScheme) IsZero() bool {
 }
 
 var DefaultColorScheme = ColorScheme{
-	Default: "\x1b[37m",
+	Default: "\x1b[30m",
 	Comment: "\x1b[90m",
 	Status:  "\x1b[33m",
 	Field:   "\x1b[34m",
